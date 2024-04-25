@@ -1,0 +1,151 @@
+2024-04-19 22:21:48,805:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2024-04-19 22:22:37,256:INFO:PyCaret TSForecastingExperiment
+2024-04-19 22:22:37,256:INFO:Logging name: ts-default-name
+2024-04-19 22:22:37,256:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-19 22:22:37,256:INFO:version 3.3.1
+2024-04-19 22:22:37,256:INFO:Initializing setup()
+2024-04-19 22:22:37,256:INFO:self.USI: 2f7c
+2024-04-19 22:22:37,256:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-19 22:22:37,257:INFO:Checking environment
+2024-04-19 22:22:37,257:INFO:python_version: 3.11.0
+2024-04-19 22:22:37,257:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-19 22:22:37,257:INFO:machine: x86_64
+2024-04-19 22:22:37,359:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:22:37,360:INFO:Memory: svmem(total=34359738368, available=14501105664, percent=57.8, used=18950238208, free=307097600, active=14202044416, inactive=14158839808, wired=4748193792)
+2024-04-19 22:22:37,360:INFO:Physical Core: 8
+2024-04-19 22:22:37,360:INFO:Logical Core: 16
+2024-04-19 22:22:37,360:INFO:Checking libraries
+2024-04-19 22:22:37,360:INFO:System:
+2024-04-19 22:22:37,360:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-19 22:22:37,360:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-19 22:22:37,360:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:22:37,360:INFO:PyCaret required dependencies:
+2024-04-19 22:22:54,553:INFO:PyCaret TSForecastingExperiment
+2024-04-19 22:22:54,553:INFO:Logging name: ts-default-name
+2024-04-19 22:22:54,553:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-19 22:22:54,553:INFO:version 3.3.1
+2024-04-19 22:22:54,553:INFO:Initializing setup()
+2024-04-19 22:22:54,553:INFO:self.USI: b1b3
+2024-04-19 22:22:54,553:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-19 22:22:54,554:INFO:Checking environment
+2024-04-19 22:22:54,554:INFO:python_version: 3.11.0
+2024-04-19 22:22:54,554:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-19 22:22:54,554:INFO:machine: x86_64
+2024-04-19 22:22:54,554:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:22:54,554:INFO:Memory: svmem(total=34359738368, available=14339096576, percent=58.3, used=19069698048, free=96366592, active=14218362880, inactive=14231490560, wired=4851335168)
+2024-04-19 22:22:54,554:INFO:Physical Core: 8
+2024-04-19 22:22:54,554:INFO:Logical Core: 16
+2024-04-19 22:22:54,560:INFO:Checking libraries
+2024-04-19 22:22:54,560:INFO:System:
+2024-04-19 22:22:54,560:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-19 22:22:54,560:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-19 22:22:54,561:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:22:54,561:INFO:PyCaret required dependencies:
+2024-04-19 22:25:55,803:INFO:PyCaret TSForecastingExperiment
+2024-04-19 22:25:55,804:INFO:Logging name: ts-default-name
+2024-04-19 22:25:55,804:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-19 22:25:55,804:INFO:version 3.3.1
+2024-04-19 22:25:55,804:INFO:Initializing setup()
+2024-04-19 22:25:55,804:INFO:self.USI: 08c9
+2024-04-19 22:25:55,804:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-19 22:25:55,804:INFO:Checking environment
+2024-04-19 22:25:55,804:INFO:python_version: 3.11.0
+2024-04-19 22:25:55,804:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-19 22:25:55,804:INFO:machine: x86_64
+2024-04-19 22:25:55,804:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:25:55,805:INFO:Memory: svmem(total=34359738368, available=14894342144, percent=56.7, used=18474147840, free=1403654144, active=13254774784, inactive=13457145856, wired=5219373056)
+2024-04-19 22:25:55,805:INFO:Physical Core: 8
+2024-04-19 22:25:55,805:INFO:Logical Core: 16
+2024-04-19 22:25:55,805:INFO:Checking libraries
+2024-04-19 22:25:55,805:INFO:System:
+2024-04-19 22:25:55,805:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-19 22:25:55,805:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-19 22:25:55,805:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-19 22:25:55,805:INFO:PyCaret required dependencies:
+2024-04-20 19:33:56,746:INFO:PyCaret TSForecastingExperiment
+2024-04-20 19:33:56,747:INFO:Logging name: ts-default-name
+2024-04-20 19:33:56,747:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-20 19:33:56,747:INFO:version 3.3.1
+2024-04-20 19:33:56,747:INFO:Initializing setup()
+2024-04-20 19:33:56,747:INFO:self.USI: ddf0
+2024-04-20 19:33:56,747:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-20 19:33:56,747:INFO:Checking environment
+2024-04-20 19:33:56,747:INFO:python_version: 3.11.0
+2024-04-20 19:33:56,747:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-20 19:33:56,747:INFO:machine: x86_64
+2024-04-20 19:33:56,747:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-20 19:33:56,747:INFO:Memory: svmem(total=34359738368, available=15462506496, percent=55.0, used=17294864384, free=2288259072, active=13203808256, inactive=13029068800, wired=4091056128)
+2024-04-20 19:33:56,747:INFO:Physical Core: 8
+2024-04-20 19:33:56,747:INFO:Logical Core: 16
+2024-04-20 19:33:56,747:INFO:Checking libraries
+2024-04-20 19:33:56,748:INFO:System:
+2024-04-20 19:33:56,748:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-20 19:33:56,748:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-20 19:33:56,748:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-20 19:33:56,748:INFO:PyCaret required dependencies:
+2024-04-21 01:43:54,528:INFO:PyCaret TSForecastingExperiment
+2024-04-21 01:43:54,528:INFO:Logging name: ts-default-name
+2024-04-21 01:43:54,528:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-21 01:43:54,529:INFO:version 3.3.1
+2024-04-21 01:43:54,529:INFO:Initializing setup()
+2024-04-21 01:43:54,529:INFO:self.USI: 313f
+2024-04-21 01:43:54,529:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-21 01:43:54,529:INFO:Checking environment
+2024-04-21 01:43:54,529:INFO:python_version: 3.11.0
+2024-04-21 01:43:54,529:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-21 01:43:54,529:INFO:machine: x86_64
+2024-04-21 01:43:54,529:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-21 01:43:54,529:INFO:Memory: svmem(total=34359738368, available=14788853760, percent=57.0, used=17893588992, free=1000173568, active=13807353856, inactive=13605863424, wired=4086235136)
+2024-04-21 01:43:54,529:INFO:Physical Core: 8
+2024-04-21 01:43:54,529:INFO:Logical Core: 16
+2024-04-21 01:43:54,529:INFO:Checking libraries
+2024-04-21 01:43:54,529:INFO:System:
+2024-04-21 01:43:54,529:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-21 01:43:54,529:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-21 01:43:54,529:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-21 01:43:54,529:INFO:PyCaret required dependencies:
+2024-04-22 10:00:49,940:INFO:PyCaret TSForecastingExperiment
+2024-04-22 10:00:49,941:INFO:Logging name: ts-default-name
+2024-04-22 10:00:49,941:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-22 10:00:49,941:INFO:version 3.3.1
+2024-04-22 10:00:49,941:INFO:Initializing setup()
+2024-04-22 10:00:49,941:INFO:self.USI: dc70
+2024-04-22 10:00:49,941:INFO:self._variable_keys: {'html_param', 'y_transformed', 'model_engines', 'y', 'primary_sp_to_use', 'X_train', 'seasonality_present', 'y_test', 'fold_generator', 'X', 'X_test', 'X_train_transformed', 'X_transformed', 'exogenous_present', 'USI', 'enforce_exogenous', 'log_plots_param', 'logging_param', 'seed', 'gpu_n_jobs_param', 'n_jobs_param', 'X_test_transformed', '_ml_usecase', 'data', 'memory', 'all_sps_to_use', 'enforce_pi', 'strictly_positive', '_available_plots', 'pipeline', 'significant_sps_no_harmonics', 'exp_name_log', 'exp_id', 'fh', 'candidate_sps', 'index_type', 'gpu_param', 'idx', 'y_test_transformed', 'approach_type', 'y_train_transformed', 'y_train', 'significant_sps', 'fold_param'}
+2024-04-22 10:00:49,941:INFO:Checking environment
+2024-04-22 10:00:49,942:INFO:python_version: 3.11.0
+2024-04-22 10:00:49,942:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-22 10:00:49,942:INFO:machine: x86_64
+2024-04-22 10:00:49,942:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-22 10:00:49,944:INFO:Memory: svmem(total=34359738368, available=20466364416, percent=40.4, used=10498637824, free=14725906432, active=5749252096, inactive=4428353536, wired=4749385728)
+2024-04-22 10:00:49,944:INFO:Physical Core: 8
+2024-04-22 10:00:49,944:INFO:Logical Core: 16
+2024-04-22 10:00:49,944:INFO:Checking libraries
+2024-04-22 10:00:49,944:INFO:System:
+2024-04-22 10:00:49,944:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-22 10:00:49,944:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-22 10:00:49,944:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-22 10:00:49,944:INFO:PyCaret required dependencies:
+2024-04-22 21:05:40,448:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2024-04-22 21:06:32,617:INFO:PyCaret TSForecastingExperiment
+2024-04-22 21:06:32,618:INFO:Logging name: ts-default-name
+2024-04-22 21:06:32,618:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2024-04-22 21:06:32,618:INFO:version 3.3.1
+2024-04-22 21:06:32,618:INFO:Initializing setup()
+2024-04-22 21:06:32,618:INFO:self.USI: 6c4e
+2024-04-22 21:06:32,618:INFO:self._variable_keys: {'html_param', 'enforce_exogenous', 'significant_sps', 'y_train_transformed', 'X', 'index_type', 'log_plots_param', 'X_train_transformed', 'exp_name_log', 'candidate_sps', 'fh', 'memory', 'y_train', 'n_jobs_param', 'idx', 'data', 'model_engines', 'approach_type', 'y_test', 'significant_sps_no_harmonics', 'seasonality_present', 'exp_id', 'USI', 'fold_generator', 'pipeline', 'gpu_param', 'X_train', 'y', '_ml_usecase', 'gpu_n_jobs_param', 'strictly_positive', 'primary_sp_to_use', 'y_test_transformed', 'exogenous_present', 'fold_param', 'enforce_pi', '_available_plots', 'X_test', 'X_test_transformed', 'X_transformed', 'all_sps_to_use', 'logging_param', 'y_transformed', 'seed'}
+2024-04-22 21:06:32,618:INFO:Checking environment
+2024-04-22 21:06:32,618:INFO:python_version: 3.11.0
+2024-04-22 21:06:32,618:INFO:python_build: ('main', 'Oct 25 2022 06:24:51')
+2024-04-22 21:06:32,618:INFO:machine: x86_64
+2024-04-22 21:06:32,689:INFO:platform: macOS-14.3.1-x86_64-i386-64bit
+2024-04-22 21:06:32,690:INFO:Memory: svmem(total=34359738368, available=18360811520, percent=46.6, used=13691723776, free=8835395584, active=9530114048, inactive=7934291968, wired=4161609728)
+2024-04-22 21:06:32,690:INFO:Physical Core: 8
+2024-04-22 21:06:32,690:INFO:Logical Core: 16
+2024-04-22 21:06:32,690:INFO:Checking libraries
+2024-04-22 21:06:32,690:INFO:System:
+2024-04-22 21:06:32,690:INFO:    python: 3.11.0 | packaged by conda-forge | (main, Oct 25 2022, 06:24:51) [Clang 14.0.4 ]
+2024-04-22 21:06:32,690:INFO:executable: /Users/aghos81/anaconda3/envs/genai/bin/python3.11
+2024-04-22 21:06:32,690:INFO:   machine: macOS-14.3.1-x86_64-i386-64bit
+2024-04-22 21:06:32,691:INFO:PyCaret required dependencies:
