@@ -164,6 +164,18 @@ if len(product) == 1:
     del df_temp
     #st.line_chart(df_pred['y'])
 
+    # Generate a range of dates from the minimum to maximum date in the dataframe
+    min_date = df_pred['ds'].min()
+    max_date = df_pred['ds'].max()
+    all_dates = pd.date_range(start=min_date, end=max_date, freq='D')
+
+    # Create a new dataframe with all dates and merge with the original dataframe
+    all_dates_df = pd.DataFrame({'ds': all_dates})
+    df_pred = pd.merge(all_dates_df, df_pred, on='ds', how='left')
+
+    # Replace missing values with 0
+    df_pred['y'].fillna(0, inplace=True)
+
     m = Prophet()
     m.fit(df_pred)
 
